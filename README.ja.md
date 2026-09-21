@@ -4,7 +4,7 @@
 
 [English](README.md) · [한국어](README.ko.md) · [简体中文](README.zh-CN.md) · 日本語 · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md)
 
-> この文書は翻訳版です。内容に相違がある場合は[英語版](README.md)が優先されます。
+> この文書は翻訳版です。内容に相違がある場合は[韓国語版](README.ko.md)が優先されます。
 
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20x64-0078D4)
 ![License](https://img.shields.io/badge/license-Freeware-brightgreen)

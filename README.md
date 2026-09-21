@@ -4,6 +4,8 @@
 
 English · [한국어](README.ko.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md)
 
+> This document is a translation. If anything differs, the [Korean version](README.ko.md) is authoritative.
+
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20x64-0078D4)
 ![License](https://img.shields.io/badge/license-Freeware-brightgreen)
 ![Version](https://img.shields.io/badge/version-0.9.0-blue)

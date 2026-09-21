@@ -4,7 +4,7 @@
 
 [English](README.md) · [한국어](README.ko.md) · 简体中文 · [日本語](README.ja.md) · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md)
 
-> 本文档为译文。如有出入，以[英文版](README.md)为准。
+> 本文档为译文。如有出入，以[韩文版](README.ko.md)为准。
 
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20x64-0078D4)
 ![License](https://img.shields.io/badge/license-Freeware-brightgreen)

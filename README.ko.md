@@ -4,8 +4,6 @@
 
 [English](README.md) · 한국어 · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md)
 
-> 이 문서는 번역본입니다. 내용이 다를 경우 [영어판](README.md)이 기준입니다.
-
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20x64-0078D4)
 ![License](https://img.shields.io/badge/license-Freeware-brightgreen)
 ![Version](https://img.shields.io/badge/version-0.9.0-blue)
