@@ -9,7 +9,7 @@
 ![Version](https://img.shields.io/badge/version-0.9.0-blue)
 [![Download](https://img.shields.io/badge/download-kilho.net-orange)](https://down.kilho.net/1stchip?lang=ko)
 
-<!-- screenshot: images/main.png -->
+![1stChip 화면](images/1stchip-ko.webp)
 
 ## 소개
 

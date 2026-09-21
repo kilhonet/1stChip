@@ -11,7 +11,7 @@ English · [한국어](README.ko.md) · [简体中文](README.zh-CN.md) · [日�
 ![Version](https://img.shields.io/badge/version-0.9.0-blue)
 [![Download](https://img.shields.io/badge/download-kilho.net-orange)](https://down.kilho.net/1stchip?lang=en)
 
-<!-- screenshot: images/main.png -->
+![1stChip screenshot](images/1stchip-ko.webp)
 
 ## Overview
 
