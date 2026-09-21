@@ -75,7 +75,7 @@ Não há janela de configurações. O 1stChip segue o Windows automaticamente:
 
 ## Atualizações
 
-O 1stChip **não** se atualiza sozinho. Novas versões são publicadas manualmente após verificação interna e anunciadas na [página do 1stChip](https://v2.kilho.net/pt/1stchip). Veja o [aviso sobre a política de atualizações](https://en.kilho.net/archives/notice/2940).
+O 1stChip **não** se atualiza sozinho. Novas versões são publicadas manualmente após verificação interna e anunciadas na [página do 1stChip](https://v2.kilho.net/1stchip). Veja o [aviso sobre a política de atualizações](https://en.kilho.net/archives/notice/2940).
 
 **Histórico de versões**
 
@@ -91,7 +91,7 @@ Você pode usá-lo em qualquer lugar — em casa, no escritório, em escolas e e
 
 ## Links
 
-- Site: <https://v2.kilho.net/pt/1stchip>
+- Site: <https://v2.kilho.net/1stchip>
 - Fórum: <https://groups.google.com/g/kilhonet>
 - X (Twitter): <https://www.twitter.com/kilhonet>
 

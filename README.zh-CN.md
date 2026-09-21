@@ -75,7 +75,7 @@
 
 ## 更新
 
-1stChip **不会**自动更新。新版本经内部验证后手动发布，并在 [1stChip 页面](https://v2.kilho.net/zh/1stchip)公告。请参阅[更新政策说明](https://en.kilho.net/archives/notice/2940)。
+1stChip **不会**自动更新。新版本经内部验证后手动发布，并在 [1stChip 页面](https://v2.kilho.net/1stchip)公告。请参阅[更新政策说明](https://en.kilho.net/archives/notice/2940)。
 
 **版本历史**
 
@@ -91,7 +91,7 @@
 
 ## 链接
 
-- 网站：<https://v2.kilho.net/zh/1stchip>
+- 网站：<https://v2.kilho.net/1stchip>
 - 论坛：<https://groups.google.com/g/kilhonet>
 - X (Twitter)：<https://www.twitter.com/kilhonet>
 

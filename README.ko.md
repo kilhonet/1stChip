@@ -73,7 +73,7 @@ Windows를 갓 설치한 상태에서도 동작합니다. 드라이버가 아직
 
 ## 업데이트
 
-1stChip은 스스로 업데이트하지 **않습니다**. 새 버전은 내부 검증을 거쳐 수동으로 배포되며 [1stChip 페이지](https://v2.kilho.net/ko/1stchip)에 공지됩니다. [업데이트 정책 안내](https://kilho.net/archives/notice/2940)를 참고하세요.
+1stChip은 스스로 업데이트하지 **않습니다**. 새 버전은 내부 검증을 거쳐 수동으로 배포되며 [1stChip 페이지](https://v2.kilho.net/1stchip)에 공지됩니다. [업데이트 정책 안내](https://kilho.net/archives/notice/2940)를 참고하세요.
 
 **버전 이력**
 
@@ -89,7 +89,7 @@ Windows를 갓 설치한 상태에서도 동작합니다. 드라이버가 아직
 
 ## 링크
 
-- 웹사이트: <https://v2.kilho.net/ko/1stchip>
+- 웹사이트: <https://v2.kilho.net/1stchip>
 - 포럼: <https://groups.google.com/g/kilhonet>
 - X (트위터): <https://www.twitter.com/kilhonet>
 

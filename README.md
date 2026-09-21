@@ -75,7 +75,7 @@ There is no settings window. 1stChip follows Windows automatically:
 
 ## Updates
 
-1stChip does **not** update itself. New versions are released manually after internal verification, and are announced on the [1stChip page](https://v2.kilho.net/en/1stchip). See the [update policy notice](https://en.kilho.net/archives/notice/2940).
+1stChip does **not** update itself. New versions are released manually after internal verification, and are announced on the [1stChip page](https://v2.kilho.net/1stchip). See the [update policy notice](https://en.kilho.net/archives/notice/2940).
 
 **Version history**
 
@@ -91,7 +91,7 @@ You may use it anywhere — at home, at the office, in schools and government of
 
 ## Links
 
-- Website: <https://v2.kilho.net/en/1stchip>
+- Website: <https://v2.kilho.net/1stchip>
 - Forum: <https://groups.google.com/g/kilhonet>
 - X (Twitter): <https://www.twitter.com/kilhonet>
 

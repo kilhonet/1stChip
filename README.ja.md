@@ -75,7 +75,7 @@ Windows をインストールした直後でも動作します。ドライバー
 
 ## 更新
 
-1stChip は自動更新を**行いません**。新しいバージョンは内部検証を経て手動で配布され、[1stChip ページ](https://v2.kilho.net/ja/1stchip)で告知されます。[更新ポリシーのお知らせ](https://en.kilho.net/archives/notice/2940)もご覧ください。
+1stChip は自動更新を**行いません**。新しいバージョンは内部検証を経て手動で配布され、[1stChip ページ](https://v2.kilho.net/1stchip)で告知されます。[更新ポリシーのお知らせ](https://en.kilho.net/archives/notice/2940)もご覧ください。
 
 **バージョン履歴**
 
@@ -91,7 +91,7 @@ Windows をインストールした直後でも動作します。ドライバー
 
 ## リンク
 
-- ウェブサイト: <https://v2.kilho.net/ja/1stchip>
+- ウェブサイト: <https://v2.kilho.net/1stchip>
 - フォーラム: <https://groups.google.com/g/kilhonet>
 - X (Twitter): <https://www.twitter.com/kilhonet>
 
