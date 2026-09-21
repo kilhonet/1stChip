@@ -45,15 +45,51 @@ Solo descomprimir y ejecutar. Sin instalación, sin permisos de administrador y 
 
 ## Uso
 
-1. Ejecuta `1stChip.exe`. La lista de hardware aparece de inmediato.
-2. Cada categoría muestra sus dispositivos; la primera línea es el dispositivo representativo y el resto se muestra en gris.
-3. Debajo del nombre de cada dispositivo verás la versión y la fecha del controlador **instalado**.
-4. Una marca amarilla `!` junto a un dispositivo significa una de estas cosas:
-   - no hay ningún controlador instalado,
-   - el dispositivo informa de un código de problema, o
-   - se conoce un controlador más reciente; pasa el cursor para ver la versión.
-5. **Haz clic** en la marca `!` para abrir en el navegador la página del controlador de ese dispositivo.
-6. El panel inferior muestra la frecuencia de la CPU, el tamaño de la memoria y el sistema operativo.
+### Flujo básico
+
+1. Ejecuta `1stChip.exe`. La lista de hardware aparece en unos segundos.
+2. La lista está agrupada así: **CPU → Placa base → Tarjeta gráfica → Multimedia → Tarjeta de red → Otros dispositivos**. La primera línea de cada categoría es el dispositivo representativo; el resto sigue en gris.
+3. Debajo del nombre de cada dispositivo verás la **versión y la fecha del controlador instalado**.
+4. Una marca amarilla `!` indica que hay algo que revisar. Pasa el cursor para ver el motivo y **haz clic** para abrir en el navegador la página del controlador de ese dispositivo.
+5. En la parte inferior de la ventana se muestran la frecuencia de la CPU, el tamaño de la memoria y la versión de Windows.
+
+La lista se lee una vez al iniciar. Después de instalar un controlador, cierra y vuelve a ejecutar 1stChip para ver el resultado.
+
+### La ventana
+
+| Parte | Qué muestra |
+|---|---|
+| Logotipo | Logotipo del fabricante (iniciales si no tiene logotipo) |
+| Nombre del dispositivo | El nombre asignado por Windows. Los dispositivos idénticos se agrupan como `(×2)` |
+| Segunda línea | Versión · fecha del controlador instalado |
+| `!` | Sin controlador / con problema / hay un controlador más reciente — pasa el cursor para saber cuál, haz clic para la página del controlador |
+| Panel inferior | Frecuencia de la CPU (base) · tamaño de la memoria · sistema operativo |
+
+### Cómo…
+
+**Acabas de instalar Windows y no sabes qué controladores instalar**
+Ejecuta 1stChip y busca los dispositivos marcados con `!`. Si al pasar el cursor aparece «No hay ningún controlador instalado», a ese dispositivo le falta el controlador. Haz clic en `!` para abrir la página del controlador, instálalo y vuelve a ejecutar 1stChip para comprobar que la `!` ha desaparecido. Si el PC no tiene Internet porque falta el controlador de red, usa 1stChip para ver el fabricante y el modelo de la tarjeta de red y descarga el controlador desde otro PC.
+
+**El Administrador de dispositivos muestra un «Dispositivo desconocido»**
+El Administrador de dispositivos no puede dar nombre a un dispositivo sin controlador, pero 1stChip identifica el fabricante y la categoría sin él. Busca el dispositivo en su categoría y haz clic en `!`.
+
+**Comprobar si tus controladores están actualizados**
+Cuando se conoce un controlador más reciente, el dispositivo recibe una `!` y al pasar el cursor se lee «Puedes actualizar a la versión x.x.x». Sin `!`, está al día hasta donde se sabe.
+
+**Consultar las especificaciones del PC rápidamente**
+Lee solo la primera línea (dispositivo representativo) de cada categoría y tendrás la CPU, el chipset de la placa base, la tarjeta gráfica, el sonido y la tarjeta de red de un vistazo, con el tamaño de la memoria y la versión de Windows en el panel inferior. Útil al redactar un anuncio de venta o al comparar con los requisitos recomendados de un juego.
+
+**Varios dispositivos idénticos**
+Los dispositivos idénticos se agrupan en una línea con un contador como `(×2)`. Los dispositivos estructurales de los que nunca hay que preocuparse —concentradores USB, puentes internos— se omiten de la lista.
+
+**Revisar muchos PC**
+1stChip no necesita instalación ni permisos de administrador, así que guárdalo en una memoria USB y ejecútalo en cada PC. No deja nada en el PC donde se ejecuta.
+
+**En un PC sin Internet**
+La lista de hardware y los detalles de los controladores instalados funcionan sin conexión. Solo las marcas de «controlador más reciente disponible» y la página del controlador que se abre al hacer clic en `!` necesitan Internet.
+
+**La ventana está en modo oscuro (o claro), o en inglés**
+1stChip sigue a Windows. Cambia el modo claro/oscuro en Windows *Configuración → Personalización → Colores → Modo de aplicación*, y el idioma de la interfaz mediante el idioma de visualización de Windows (coreano → coreano, cualquier otro → inglés).
 
 Solo se ejecuta una instancia a la vez; si lo vuelves a abrir, la ventana existente pasa al frente.
 

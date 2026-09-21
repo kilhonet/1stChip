@@ -45,15 +45,51 @@ Il suffit de décompresser et de lancer. Pas d'installation, pas de droits d'adm
 
 ## Utilisation
 
-1. Lancez `1stChip.exe`. La liste du matériel s'affiche immédiatement.
-2. Chaque catégorie présente ses périphériques ; la première ligne est le périphérique représentatif, les autres sont affichés en gris.
-3. Sous le nom de chaque périphérique figurent la version et la date du pilote **installé**.
-4. Une marque jaune `!` à côté d'un périphérique signifie l'un des cas suivants :
-   - aucun pilote n'est installé,
-   - le périphérique signale un code de problème, ou
-   - un pilote plus récent est connu — survolez pour voir la version.
-5. **Cliquez** sur la marque `!` pour ouvrir dans votre navigateur la page du pilote de ce périphérique.
-6. Le panneau du bas affiche la fréquence du processeur, la taille de la mémoire et le système d'exploitation.
+### Le déroulement de base
+
+1. Lancez `1stChip.exe`. La liste du matériel apparaît en quelques secondes.
+2. La liste est regroupée ainsi : **Processeur → Carte mère → Carte graphique → Multimédia → Carte réseau → Autres périphériques**. La première ligne de chaque catégorie est le périphérique représentatif ; les autres suivent en gris.
+3. Sous le nom de chaque périphérique figurent la **version et la date du pilote installé**.
+4. Une marque jaune `!` signale qu'il y a quelque chose à vérifier. Survolez-la pour en connaître la raison et **cliquez** pour ouvrir dans le navigateur la page du pilote de ce périphérique.
+5. Le bas de la fenêtre affiche la fréquence du processeur, la taille de la mémoire et la version de Windows.
+
+La liste est lue une fois au démarrage. Après avoir installé un pilote, fermez et relancez 1stChip pour voir le résultat.
+
+### La fenêtre
+
+| Partie | Ce qu'elle montre |
+|---|---|
+| Logo | Logo du fabricant (initiales pour les fabricants sans logo) |
+| Nom du périphérique | Le nom attribué par Windows. Les périphériques identiques sont regroupés sous la forme `(×2)` |
+| Deuxième ligne | Version · date du pilote installé |
+| `!` | Pas de pilote / problème / pilote plus récent connu — survolez pour savoir lequel, cliquez pour la page du pilote |
+| Panneau du bas | Fréquence du processeur (de base) · taille de la mémoire · système d'exploitation |
+
+### Comment…
+
+**Vous venez d'installer Windows et ne savez pas quels pilotes installer**
+Lancez 1stChip et repérez les périphériques marqués `!`. Si le survol indique « Aucun pilote n'est installé », c'est que ce périphérique n'a pas de pilote. Cliquez sur `!` pour ouvrir la page du pilote, installez-le, puis relancez 1stChip pour vérifier que le `!` a disparu. Si le PC n'a pas d'Internet faute de pilote réseau, utilisez 1stChip pour lire le fabricant et le modèle de la carte réseau, puis récupérez le pilote depuis un autre PC.
+
+**Le Gestionnaire de périphériques affiche un « Périphérique inconnu »**
+Le Gestionnaire de périphériques ne peut pas nommer un périphérique sans pilote, mais 1stChip en identifie le fabricant et la catégorie sans pilote. Trouvez le périphérique dans sa catégorie et cliquez sur `!`.
+
+**Vérifier si vos pilotes sont à jour**
+Lorsqu'un pilote plus récent est connu, le périphérique reçoit un `!` et le survol affiche « Vous pouvez mettre à jour vers la version x.x.x ». Sans `!`, il est à jour dans la limite de ce qui est connu.
+
+**Consulter rapidement les caractéristiques du PC**
+Lisez seulement la première ligne (périphérique représentatif) de chaque catégorie et vous avez le processeur, le chipset de la carte mère, la carte graphique, le son et la carte réseau d'un coup d'œil, avec la taille de la mémoire et la version de Windows dans le panneau du bas. Pratique pour rédiger une annonce de vente ou comparer avec la configuration recommandée d'un jeu.
+
+**Plusieurs périphériques identiques**
+Les périphériques identiques sont regroupés sur une ligne avec un compteur tel que `(×2)`. Les périphériques structurels dont vous n'avez jamais à vous soucier — concentrateurs USB, ponts internes — sont exclus de la liste.
+
+**Contrôler de nombreux PC**
+1stChip ne nécessite ni installation ni droits d'administrateur : gardez-le sur une clé USB et lancez-le sur chaque PC. Il ne laisse aucune trace sur le PC où il s'exécute.
+
+**Sur un PC sans Internet**
+La liste du matériel et les détails des pilotes installés fonctionnent entièrement hors ligne. Seules les marques « pilote plus récent disponible » et la page du pilote ouverte en cliquant sur `!` nécessitent une connexion.
+
+**La fenêtre est sombre (ou claire), ou en anglais**
+1stChip suit Windows. Changez le mode clair/sombre dans Windows *Paramètres → Personnalisation → Couleurs → Mode d'application*, et la langue de l'interface via la langue d'affichage de Windows (coréen → coréen, toute autre → anglais).
 
 Une seule instance s'exécute à la fois ; relancer le programme ramène la fenêtre existante au premier plan.
 

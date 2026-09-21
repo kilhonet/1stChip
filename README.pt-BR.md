@@ -45,15 +45,51 @@ O 1stChip está disponível como aplicativo **portátil**: baixe o ZIP, descompa
 
 ## Como usar
 
-1. Execute `1stChip.exe`. A lista de hardware aparece imediatamente.
-2. Cada categoria mostra seus dispositivos; a primeira linha é o dispositivo representativo e as demais aparecem em cinza.
-3. Abaixo do nome de cada dispositivo você vê a versão e a data do driver **instalado**.
-4. Uma marca amarela `!` ao lado de um dispositivo significa uma destas situações:
-   - nenhum driver está instalado,
-   - o dispositivo informa um código de problema, ou
-   - um driver mais novo é conhecido — passe o mouse para ver a versão.
-5. **Clique** na marca `!` para abrir no navegador a página do driver daquele dispositivo.
-6. O painel inferior mostra o clock da CPU, o tamanho da memória e o sistema operacional.
+### Fluxo básico
+
+1. Execute `1stChip.exe`. A lista de hardware aparece em poucos segundos.
+2. A lista é agrupada assim: **CPU → Placa-mãe → Placa de vídeo → Multimídia → Placa de rede → Outros dispositivos**. A primeira linha de cada categoria é o dispositivo representativo; as demais seguem em cinza.
+3. Abaixo do nome de cada dispositivo você vê a **versão e a data do driver instalado**.
+4. Uma marca amarela `!` indica que há algo a verificar. Passe o mouse para ver o motivo e **clique** para abrir no navegador a página do driver daquele dispositivo.
+5. A parte inferior da janela mostra o clock da CPU, o tamanho da memória e a versão do Windows.
+
+A lista é lida uma vez na inicialização. Depois de instalar um driver, feche e execute o 1stChip novamente para ver o resultado.
+
+### A janela
+
+| Parte | O que mostra |
+|---|---|
+| Logotipo | Logotipo do fabricante (iniciais para fabricantes sem logotipo) |
+| Nome do dispositivo | O nome atribuído pelo Windows. Dispositivos idênticos são agrupados como `(×2)` |
+| Segunda linha | Versão · data do driver instalado |
+| `!` | Sem driver / com problema / driver mais novo conhecido — passe o mouse para saber qual, clique para a página do driver |
+| Painel inferior | Clock da CPU (base) · tamanho da memória · sistema operacional |
+
+### Como…
+
+**Você acabou de instalar o Windows e não sabe quais drivers instalar**
+Execute o 1stChip e procure os dispositivos marcados com `!`. Se ao passar o mouse aparecer "Nenhum driver está instalado", aquele dispositivo está sem driver. Clique em `!` para abrir a página do driver, instale e execute o 1stChip de novo para confirmar que o `!` sumiu. Se o PC está sem Internet porque falta o driver de rede, use o 1stChip para ver o fabricante e o modelo da placa de rede e baixe o driver em outro PC.
+
+**O Gerenciador de Dispositivos mostra um "Dispositivo desconhecido"**
+O Gerenciador de Dispositivos não consegue nomear um dispositivo sem driver, mas o 1stChip identifica o fabricante e a categoria sem ele. Encontre o dispositivo na categoria e clique em `!`.
+
+**Verificar se os drivers estão atualizados**
+Quando um driver mais novo é conhecido, o dispositivo recebe um `!` e, ao passar o mouse, aparece "Você pode atualizar para a versão x.x.x". Sem `!`, ele está atualizado até onde se sabe.
+
+**Ver as especificações do PC rapidamente**
+Leia só a primeira linha (dispositivo representativo) de cada categoria e você terá CPU, chipset da placa-mãe, placa de vídeo, som e placa de rede em um relance, com o tamanho da memória e a versão do Windows no painel inferior. Útil para escrever um anúncio de venda ou comparar com os requisitos recomendados de um jogo.
+
+**Vários dispositivos idênticos**
+Dispositivos idênticos são agrupados em uma linha com um contador como `(×2)`. Dispositivos estruturais com os quais você nunca precisa se preocupar — hubs USB, pontes internas — ficam fora da lista.
+
+**Verificar muitos PCs**
+O 1stChip não precisa de instalação nem de direitos de administrador, então guarde-o em um pen drive e execute em cada PC. Ele não deixa nada no PC em que roda.
+
+**Em um PC sem Internet**
+A lista de hardware e os detalhes dos drivers instalados funcionam totalmente offline. Só as marcas de "driver mais novo disponível" e a página do driver aberta ao clicar em `!` precisam de Internet.
+
+**A janela está escura (ou clara), ou em inglês**
+O 1stChip segue o Windows. Mude claro/escuro em Windows *Configurações → Personalização → Cores → Modo de aplicativo*, e o idioma da interface pelo idioma de exibição do Windows (coreano → coreano, qualquer outro → inglês).
 
 Apenas uma instância roda por vez; abrir de novo traz a janela já existente para a frente.
 

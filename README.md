@@ -45,15 +45,51 @@ Just unzip and run. No installation, no administrator rights, nothing else to in
 
 ## Usage
 
-1. Run `1stChip.exe`. Your hardware list appears immediately.
-2. Each category shows its devices; the first line is the representative device, the rest are shown in grey.
-3. Under each device name you see the **installed** driver version and date.
-4. A yellow `!` next to a device means one of:
-   - no driver is installed, or
-   - the device reports a problem code, or
-   - a newer driver is known — hover to see the version.
-5. **Click** the `!` mark to open the driver page for that device in your browser.
-6. The bottom panel shows CPU clock, memory size and operating system.
+### The basic flow
+
+1. Run `1stChip.exe`. The hardware list appears within a few seconds.
+2. The list is grouped as **CPU → Mainboard → Graphics card → Multimedia → Network card → Other devices**. The first line in each category is the representative device; the rest follow in grey.
+3. Under each device name you see the **installed driver version and date**.
+4. A yellow `!` means there is something to look at. Hover to see why, and **click** it to open that device's driver page in your browser.
+5. The bottom of the window shows the CPU clock, memory size and Windows version.
+
+The list is read once at startup. After installing a driver, close and run 1stChip again to see the result.
+
+### The window
+
+| Part | What it shows |
+|---|---|
+| Logo | Manufacturer logo (initials for makers without a logo) |
+| Device name | The name Windows assigned. Identical devices are grouped as `(×2)` |
+| Second line | Installed driver version · date |
+| `!` | No driver / problem / newer driver known — hover to tell which, click for the driver page |
+| Bottom panel | CPU clock (base clock) · memory size · operating system |
+
+### How to…
+
+**You just installed Windows and don't know which drivers to install**
+Run 1stChip and look for devices marked `!`. If hovering says "No driver is installed", that device is missing its driver. Click `!` to open the driver page, install, then run 1stChip again to check that the `!` is gone. If the PC has no internet because the network driver is missing, use 1stChip to read the network card's maker and model, then fetch the driver on another PC.
+
+**Device Manager shows an "Unknown device"**
+Device Manager cannot name a device without a driver, but 1stChip identifies the manufacturer and category without one. Find the device in its category and click `!`.
+
+**Check whether your drivers are up to date**
+When a newer driver is known, the device gets a `!` and hovering shows "You can update to version x.x.x". No `!` means it is current as far as is known.
+
+**Check your PC specs quickly**
+Read just the first line (representative device) of each category and you have the CPU, mainboard chipset, graphics card, sound and network card at a glance, with memory size and Windows version in the bottom panel. Handy when writing a for-sale listing or comparing against a game's recommended specs.
+
+**Several identical devices**
+Identical devices are grouped on one line with a count such as `(×2)`. Structural devices you never need to care about — USB hubs, internal bridges — are left out of the list.
+
+**Checking many PCs**
+1stChip needs no installation and no administrator rights, so keep it on a USB drive and run it on each PC. It leaves nothing behind on the PC it runs on.
+
+**On a PC without internet**
+The hardware list and installed driver details work fully offline. Only the "newer driver available" marks and the driver page opened by clicking `!` need an internet connection.
+
+**The window is dark (or light), or in English**
+1stChip follows Windows. Change dark/light under Windows *Settings → Personalization → Colors → App mode*, and the UI language via the Windows display language (Korean → Korean, everything else → English).
 
 Only one instance runs at a time; launching it again brings the existing window to the front.
 
