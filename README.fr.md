@@ -111,7 +111,7 @@ Il n'y a pas de fenêtre de paramètres. 1stChip suit automatiquement Windows :
 
 ## Mises à jour
 
-1stChip **ne** se met **pas** à jour tout seul. Les nouvelles versions sont publiées manuellement après vérification interne et annoncées sur la [page 1stChip](https://v2.kilho.net/1stchip). Consultez l'[avis sur la politique de mise à jour](https://en.kilho.net/archives/notice/2940).
+1stChip **ne** se met **pas** à jour tout seul. Les nouvelles versions sont publiées manuellement après vérification interne et annoncées sur la [page 1stChip](https://kilho.net/1stchip). Consultez l'[avis sur la politique de mise à jour](https://en.kilho.net/archives/notice/2940).
 
 **Historique des versions**
 
@@ -127,7 +127,7 @@ Vous pouvez l'utiliser partout — à la maison, au bureau, dans les écoles et 
 
 ## Liens
 
-- Site web : <https://v2.kilho.net/1stchip>
+- Site web : <https://kilho.net/1stchip>
 - Forum : <https://groups.google.com/g/kilhonet>
 - X (Twitter) : <https://www.twitter.com/kilhonet>
 

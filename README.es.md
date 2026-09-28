@@ -111,7 +111,7 @@ No hay ventana de configuración. 1stChip sigue automáticamente la configuraci�
 
 ## Actualizaciones
 
-1stChip **no** se actualiza solo. Las nuevas versiones se publican manualmente tras una verificación interna y se anuncian en la [página de 1stChip](https://v2.kilho.net/1stchip). Consulta el [aviso sobre la política de actualizaciones](https://en.kilho.net/archives/notice/2940).
+1stChip **no** se actualiza solo. Las nuevas versiones se publican manualmente tras una verificación interna y se anuncian en la [página de 1stChip](https://kilho.net/1stchip). Consulta el [aviso sobre la política de actualizaciones](https://en.kilho.net/archives/notice/2940).
 
 **Historial de versiones**
 
@@ -127,7 +127,7 @@ Puedes usarlo en cualquier lugar —en casa, en la oficina, en centros educativo
 
 ## Enlaces
 
-- Sitio web: <https://v2.kilho.net/1stchip>
+- Sitio web: <https://kilho.net/1stchip>
 - Foro: <https://groups.google.com/g/kilhonet>
 - X (Twitter): <https://www.twitter.com/kilhonet>
 
