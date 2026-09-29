@@ -126,7 +126,7 @@ Windows를 갓 설치한 상태에서도 동작합니다. 드라이버가 아직
 ## 링크
 
 - 웹사이트: <https://kilho.net/1stchip>
-- 포럼: <https://groups.google.com/g/kilhonet>
+- 포럼: <https://kilho.top/forum/qna>
 - X (트위터): <https://www.twitter.com/kilhonet>
 
 © KILHO.NET

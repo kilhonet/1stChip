@@ -128,7 +128,7 @@ Puedes usarlo en cualquier lugar —en casa, en la oficina, en centros educativo
 ## Enlaces
 
 - Sitio web: <https://kilho.net/1stchip>
-- Foro: <https://groups.google.com/g/kilhonet>
+- Foro: <https://kilho.top/forum/qna>
 - X (Twitter): <https://www.twitter.com/kilhonet>
 
 © KILHO.NET

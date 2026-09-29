@@ -128,7 +128,7 @@
 ## 链接
 
 - 网站：<https://kilho.net/1stchip>
-- 论坛：<https://groups.google.com/g/kilhonet>
+- 论坛：<https://kilho.top/forum/qna>
 - X (Twitter)：<https://www.twitter.com/kilhonet>
 
 © KILHO.NET

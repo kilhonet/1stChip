@@ -128,7 +128,7 @@ Windows をインストールした直後でも動作します。ドライバー
 ## リンク
 
 - ウェブサイト: <https://kilho.net/1stchip>
-- フォーラム: <https://groups.google.com/g/kilhonet>
+- フォーラム: <https://kilho.top/forum/qna>
 - X (Twitter): <https://www.twitter.com/kilhonet>
 
 © KILHO.NET
