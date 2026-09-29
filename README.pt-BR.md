@@ -45,7 +45,7 @@ O 1stChip está disponível como aplicativo **portátil**: baixe o ZIP, descompa
 
 ## Como usar
 
-### Fluxo básico
+### Primeiros passos
 
 1. Execute `1stChip.exe`. A lista de hardware aparece em poucos segundos.
 2. A lista é agrupada assim: **CPU → Placa-mãe → Placa de vídeo → Multimídia → Placa de rede → Outros dispositivos**. A primeira linha de cada categoria é o dispositivo representativo; as demais seguem em cinza.

@@ -45,7 +45,7 @@ Solo descomprimir y ejecutar. Sin instalación, sin permisos de administrador y 
 
 ## Uso
 
-### Flujo básico
+### Primeros pasos
 
 1. Ejecuta `1stChip.exe`. La lista de hardware aparece en unos segundos.
 2. La lista está agrupada así: **CPU → Placa base → Tarjeta gráfica → Multimedia → Tarjeta de red → Otros dispositivos**. La primera línea de cada categoría es el dispositivo representativo; el resto sigue en gris.

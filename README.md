@@ -45,7 +45,7 @@ Just unzip and run. No installation, no administrator rights, nothing else to in
 
 ## Usage
 
-### The basic flow
+### Getting started
 
 1. Run `1stChip.exe`. The hardware list appears within a few seconds.
 2. The list is grouped as **CPU → Mainboard → Graphics card → Multimedia → Network card → Other devices**. The first line in each category is the representative device; the rest follow in grey.

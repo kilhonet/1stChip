@@ -45,7 +45,7 @@ Il suffit de décompresser et de lancer. Pas d'installation, pas de droits d'adm
 
 ## Utilisation
 
-### Le déroulement de base
+### Premiers pas
 
 1. Lancez `1stChip.exe`. La liste du matériel apparaît en quelques secondes.
 2. La liste est regroupée ainsi : **Processeur → Carte mère → Carte graphique → Multimédia → Carte réseau → Autres périphériques**. La première ligne de chaque catégorie est le périphérique représentatif ; les autres suivent en gris.
