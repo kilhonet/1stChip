@@ -113,12 +113,6 @@ Il n'y a pas de fenêtre de paramètres. 1stChip suit automatiquement Windows :
 
 1stChip **ne** se met **pas** à jour tout seul. Les nouvelles versions sont publiées manuellement après vérification interne et annoncées sur la [page 1stChip](https://kilho.net/1stchip). Consultez l'[avis sur la politique de mise à jour](https://en.kilho.net/archives/notice/2940).
 
-**Historique des versions**
-
-| Version | Date | Notes |
-|---|---|---|
-| 0.9.0 | 2026-09-18 | Première version |
-
 ## Licence
 
 1stChip est un **logiciel gratuit (Freeware)**.

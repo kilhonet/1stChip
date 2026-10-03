@@ -113,12 +113,6 @@ There is no settings window. 1stChip follows Windows automatically:
 
 1stChip does **not** update itself. New versions are released manually after internal verification, and are announced on the [1stChip page](https://kilho.net/1stchip). See the [update policy notice](https://en.kilho.net/archives/notice/2940).
 
-**Version history**
-
-| Version | Date | Notes |
-|---|---|---|
-| 0.9.0 | 2026-09-18 | First release |
-
 ## License
 
 1stChip is **Freeware**.

@@ -113,12 +113,6 @@
 
 1stChip **不会**自动更新。新版本经内部验证后手动发布，并在 [1stChip 页面](https://kilho.net/1stchip)公告。请参阅[更新政策说明](https://en.kilho.net/archives/notice/2940)。
 
-**版本历史**
-
-| 版本 | 日期 | 说明 |
-|---|---|---|
-| 0.9.0 | 2026-09-18 | 首次发布 |
-
 ## 许可
 
 1stChip 是**免费软件（Freeware）**。

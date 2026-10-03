@@ -113,12 +113,6 @@ No hay ventana de configuración. 1stChip sigue automáticamente la configuraci�
 
 1stChip **no** se actualiza solo. Las nuevas versiones se publican manualmente tras una verificación interna y se anuncian en la [página de 1stChip](https://kilho.net/1stchip). Consulta el [aviso sobre la política de actualizaciones](https://en.kilho.net/archives/notice/2940).
 
-**Historial de versiones**
-
-| Versión | Fecha | Notas |
-|---|---|---|
-| 0.9.0 | 2026-09-18 | Primera versión |
-
 ## Licencia
 
 1stChip es **Freeware**.
